@@ -1,9 +1,10 @@
 function requadrantize()
 % Author: Priya Vijayakumar, vijayak@umich.edu
 % Last Update: 12/6/22 3:30PM EST
-%READ: requadrantize.m needs to be in the SAME folder as 1) BB## folder (containing "Current Experiment" folder with videos to analyze) & 2)the corresponding FoundVideoFiles.mat file. 
-% Quadrantized Videos will save under subfolder 'MUXED' WITHIN the BB## "Current Experiment" subfolder; 
-% Other Generated Outputs (irrelevant to data analysis but part of my algorithm): 1) black_frame.jpg 2)black_frame.mp4 (creates filler frame)
+%READ: requadrantize.m needs to be in the SAME folder as 1) BB## folder (containing "Current Experiment" folder with videos to analyze)...
+% ... cont. & 2)the corresponding FoundVideoFiles.mat file. 
+% Quadrantized Videos will save under subfolder 'MUXED' within the BB## "Current Experiment" subfolder; 
+% Other generated outputs: 1) black_frame.jpg 2)black_frame.mp4 (creates filler frame)
 %% loading videos
 
 load('FoundVideoFiles.mat', 'all_videos_output_data')
